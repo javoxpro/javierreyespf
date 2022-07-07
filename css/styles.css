@@ -200,6 +200,11 @@ svg {
     border-color: transparent;
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ff0318;
+}
+
 .nosotrosimg {
     width: 100%;
     height: 100%;
@@ -257,6 +262,38 @@ svg {
 
 .form-label {
     color: rgba(235, 144, 18, 1)
+}
+
+.migajas {
+    background-color: rgba(235, 144, 18, 1);
+    padding-left: 50px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #fff;
+    content: var(--bs-breadcrumb-divider, "/");
+}
+
+.breadcrumb-item.active {
+    color: #000;
+}
+
+.breadcrumb-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    color: orange;
+    font-size: 20px;
+}
+
+#tabs .accordion-button:first-child {
+    background-color: orange;
+    color: #fff;
 }
 
 @media (min-width: 768px) {
