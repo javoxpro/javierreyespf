@@ -1,0 +1,27 @@
+.footers {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(180, 140, 58, 1) 0%, rgba(252, 176, 69, 1) 47%, rgba(253, 153, 29, 1) 72%);
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex: space-between;
+        justify-content: center;
+        flex-direction: row;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    .redes img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .textoparrafo a {
+        text-decoration: none;
+        color: $linkColor;
+    }
+}
