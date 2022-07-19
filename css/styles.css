@@ -124,13 +124,6 @@ body {
   width: auto;
   height: auto; }
 
-.titulo {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 40px;
-  color: #ffa500;
-  padding-bottom: 20px; }
-
 .intro {
   font-size: 18px;
   align-items: center; }
@@ -139,7 +132,6 @@ body {
       font-size: 10px; } }
 
 .migajas {
-  background-color: #eb9012;
   padding-left: 50px; }
   .migajas .breadcrumb-item + .breadcrumb-item::before {
     float: left;
@@ -196,14 +188,6 @@ svg {
   width: 100%;
   height: 100%; }
 
-.titulon {
-  justify-content: center;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 40px;
-  color: #ffa500;
-  padding-bottom: 20px; }
-
 .fign {
   margin: 10px;
   padding: 40px; }
@@ -211,27 +195,6 @@ svg {
 .sneakers img {
   width: 300px;
   height: 300px; }
-
-.sneakers button {
-  background-color: orange;
-  color: #fff;
-  font-size: 15px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  width: 80%;
-  margin-top: 20px; }
-  .sneakers button:hover {
-    cursor: pointer;
-    background: linear-gradient(90deg, #eb9012 0%, #b8aa1f 41%, #a7b420 60%, #ea9513 100%);
-    transition: all 3s; }
-
-.btn-primary {
-  background-color: #ffa500;
-  border: 0px; }
-  .btn-primary:hover {
-    background-color: red;
-    border: 0px; }
 
 .accordion-flush .accordion-item .accordion-button {
   border-radius: 0;
@@ -244,3 +207,32 @@ svg {
 
 .form-label {
   color: #eb9012; }
+
+.snkbtn, .btn-primary {
+  background-color: #ffa500;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin-top: 20px; }
+  .snkbtn:hover, .btn-primary:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #eb9012 0%, #b8aa1f 41%, #a7b420 60%, #ea9513 100%);
+    transition: all 3s; }
+
+.btn-primary {
+  border: 0px;
+  width: 50%; }
+
+.titulo {
+  font-size: 30px;
+  color: #ffa500;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 20px; }
+
+.bg-migajas {
+  background-color: #ffa500; }

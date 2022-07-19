@@ -31,16 +31,6 @@ body {
     height: auto;
 }
 
-
-.titulo {
-    font-size: $tituloPrincipal;
-    text-align: center;
-    margin-top: 40px;
-    color: $colorNaranja;
-    padding-bottom: 20px;
-}
-
-
 .intro {
     font-size: $parrafoSize;
     align-items: center;
@@ -52,7 +42,6 @@ body {
 }
 
 .migajas {
-    background-color: rgba(235, 144, 18, 1);
     padding-left: 50px;
 
     .breadcrumb-item+.breadcrumb-item::before {
@@ -123,14 +112,7 @@ svg {
     height: 100%;
 }
 
-.titulon {
-    justify-content: center;
-    font-size: $tituloPrincipal;
-    text-align: center;
-    margin-top: 40px;
-    color: $colorNaranja;
-    padding-bottom: 20px;
-}
+
 
 .fign {
     margin: 10px;
@@ -141,30 +123,6 @@ svg {
     img {
         width: 300px;
         height: 300px;
-    }
-    button {
-        background-color: orange;
-        color: $colorFondo;
-        font-size: $fontMd;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        width: 80%;
-        margin-top: 20px;
-        &:hover {
-            cursor: pointer;
-            background: linear-gradient(90deg, rgba(235, 144, 18, 1) 0%, rgba(184, 170, 31, 1) 41%, rgba(167, 180, 32, 1) 60%, rgba(234, 149, 19, 1) 100%);
-            transition: all 3s;
-        }
-    }
-}
-
-.btn-primary {
-    background-color: $colorNaranja;
-    border: 0px;
-    &:hover {
-        background-color: red;
-        border: 0px;
     }
 }
 
